@@ -1,0 +1,35 @@
+# Core Packages
+numpy
+pandas
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+yellowbrick
+
+# Jupyter
+
+ipywidgets
+
+# Utilities
+colorama
+pytest
+black
+streamlit
+nlpretext
+
+# Machine Learning
+tensorflow-macos==2.10.0; sys_platform == 'darwin' and 'ARM' in platform_version
+tensorflow==2.10.0; sys_platform == 'darwin' and 'ARM' not in platform_version
+tensorflow==2.10.0; sys_platform != 'darwin'
+
+
+
+# API
+
+
+# Package specific
+
+
